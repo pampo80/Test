@@ -1,0 +1,23 @@
+site_name: Abhijit
+theme:
+  name: material
+  language: sk
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Tmavý režim
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Svetlý režim
+
+nav:
+  - Úvod: index.md
+  - O projekte: about.md
