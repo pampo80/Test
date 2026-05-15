@@ -3,9 +3,9 @@ site_name: Abhijit
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
+    - navigation.expand
+    - navigation.indexes
+    - toc.integrate
   palette:
     - scheme: default
       primary: indigo
@@ -17,7 +17,7 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Light mode
-
+        
 plugins:
   - search
   - i18n:
