@@ -37,3 +37,10 @@ plugins:
 nav:
   - Home: index.md
   - About: about.md
+  - Section 1:
+      - Page 1A: section1/1a.md
+      - Page 1B: section1/1b.md
+      - Page 1C: section1/1c.md
+  - Section 2:
+      - Page 2A: section2/2a.md
+      - Page 2B: section2/2b.md
