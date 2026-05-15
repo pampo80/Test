@@ -1,4 +1,5 @@
 site_name: Abhijit
+
 theme:
   name: material
   features:
@@ -10,29 +11,29 @@ theme:
       primary: indigo
       toggle:
         icon: material/weather-night
-        name: Tmavý režim
+        name: Dark mode
     - scheme: slate
       primary: indigo
       toggle:
         icon: material/weather-sunny
-        name: Svetlý režim
+        name: Light mode
 
 plugins:
   - search
   - i18n:
       docs_structure: folder
       languages:
-        - locale: sk
-          default: true
-          name: Slovensky
-          build: true
         - locale: en
+          default: true
           name: English
           build: true
+        - locale: sk
+          name: Slovensky
+          build: true
           nav_translations:
-            Úvod: Home
-            O projekte: About
+            Home: Úvod
+            About: O projekte
 
 nav:
-  - Úvod: index.md
-  - O projekte: about.md
+  - Home: index.md
+  - About: about.md
