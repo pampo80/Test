@@ -3,7 +3,7 @@ site_name: Abhijit
 theme:
   name: material
   features:
-    - navigation.expand
+    - navigation.collapse
     - navigation.indexes
     - toc.integrate
   palette:
@@ -33,6 +33,13 @@ plugins:
           nav_translations:
             Home: Úvod
             About: O projekte
+            Section 1: Časť 1
+            Page 1A: Stránka 1A
+            Page 1B: Stránka 1B
+            Page 1C: Stránka 1C
+            Section 2: Časť 2
+            Page 2A: Stránka 2A
+            Page 2B: Stránka 2B
 
 nav:
   - Home: index.md
