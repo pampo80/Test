@@ -1,8 +1,6 @@
 site_name: Abhijit
-
 theme:
   name: material
-  language: sk
   features:
     - navigation.tabs
     - navigation.sections
@@ -18,6 +16,22 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Svetlý režim
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: sk
+          default: true
+          name: Slovensky
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            Úvod: Home
+            O projekte: About
 
 nav:
   - Úvod: index.md
