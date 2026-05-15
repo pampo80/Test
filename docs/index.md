@@ -1,7 +1,7 @@
-# Vitajte v projekte Test
+# Welcome to the Test Project
 
-Toto je úvodná stránka.
+This is the home page.
 
-## O čom to bude
+## What This Is About
 
-Sem postupne pridám popis projektu, ciele a ďalšie informácie.
+I will gradually add a description of the project, its goals, and other information here.

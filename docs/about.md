@@ -1,11 +1,11 @@
-# O projekte
+# About the Project
 
-Sem napíšem podrobnejšie o projekte – prečo ho robím, čo ma k tomu viedlo, kam smerujem.
+Here I’ll provide more details about the project—why I’m doing it, what led me to it, and where I’m headed.
 
-## Motivácia
+## Motivation
 
 ...
 
-## Plány
+## Plans
 
 ...
