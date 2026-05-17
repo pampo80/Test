@@ -1,4 +1,5 @@
 site_name: Abhijit
+site_url: https://pampo80.github.io/Test/
 
 theme:
   name: material
